@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&family=Varela+Round&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./icons/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="content-container">
+        
+        <div id="result-container">
+            <div id="to-center">
+                <h2 id="result-text">You Win!!!</h2>
+            </div>
+        </div>
+
+        <h1 id="header">Tic Tac Toe</h1>
+
+        <h2 id="status-text"></h2>
+
+        <div id="main-content">
+            <div id="cell-container">
+                <div id="cell0" cellIndex="0" class="cells"></div>
+                <div id="cell1" cellIndex="1" class="cells"></div>
+                <div id="cell2" cellIndex="2" class="cells"></div>
+                <div id="cell3" cellIndex="3" class="cells"></div>
+                <div id="cell4" cellIndex="4" class="cells"></div>
+                <div id="cell5" cellIndex="5" class="cells"></div>
+                <div id="cell6" cellIndex="6" class="cells"></div>
+                <div id="cell7" cellIndex="7" class="cells"></div>
+                <div id="cell8" cellIndex="8" class="cells"></div>
+            </div>
+        </div>
+        <button id="restart-button">Restart</button>
+    </div>
+
+    <script src="./icons/all.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
